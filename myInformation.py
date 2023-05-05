@@ -4,7 +4,7 @@ import pprint
 
 pp = pprint.PrettyPrinter(indent=4)
 
-api_key = 'RGAPI-a0b17c3a-858a-43b1-bc81-3b55a768124b'
+api_key = 'my api key'
 server_url = "https://kr.api.riotgames.com"
 
 request_header = {
