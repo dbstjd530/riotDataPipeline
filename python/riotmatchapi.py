@@ -208,6 +208,9 @@ class RiotMatchData:
                     assists = myIndexData['assists']
                     kda = [kills, deaths, assists]
                     
+                    # 라인
+                    lane = myIndexData['lane']
+                    
                     # 게임 내 챔피언 레벨
                     champLevel = myIndexData['champLevel']
 
@@ -266,6 +269,7 @@ class RiotMatchData:
                     matchDataJson['tier'] = tier
                     
                     matchDataJson["championInfo"] = {'championName': championName,
+                                                     'lane': lane,
                                                     'championLevel': champLevel,
                                                     'killStreak': maxKill,
                                                     'kill': kills,
