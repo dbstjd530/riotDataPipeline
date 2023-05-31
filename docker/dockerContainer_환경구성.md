@@ -22,3 +22,8 @@
 - airflow-worker : CeleryExecutor를 사용하여 작업을 분산 처리
 - airflow-triggerer : Airflow 트리거러로, 예약된 작업을 자동으로 트리거하고 실행
 - airflow-init : Airflow 초기화 서비스로, 데이터베이스 마이그레이션 및 초기 사용자 계정 설정을 담당
+
+### 1.4 Docker Container 구성 모습
+<p align="left">
+<img src="../Images/docker_container.png" alt="이미지2" width="800" height="400">
+</p>
