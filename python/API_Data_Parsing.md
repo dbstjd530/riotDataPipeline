@@ -15,5 +15,5 @@
 ### Info['participants']
 참여한 각 유저들의 게임 history data 정보
 <p align="left">
-<img src="../Images/json_history.png" alt="이미지3" width="800" height="400">
+<img src="../Images/json_history.png" alt="이미지3" width="800" height="900">
 </p>
