@@ -1,2 +1,3 @@
-# riotDataPipeline
-riot game data pipeline project
+# Python
+## 1. Data Parsing
+
