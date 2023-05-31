@@ -1,6 +1,6 @@
 # Python
 ## 각 티어별 SummonerName List 받아오기.
-- [티어별 SummonerName List](./API_JSON_파일확인.md)
+- [티어별 SummonerName List](./SummonerName_List.md)
 
 ## Riot API Json 파일 확인
 - [Riot Json 파일 확인](./API_JSON_파일확인.md)
