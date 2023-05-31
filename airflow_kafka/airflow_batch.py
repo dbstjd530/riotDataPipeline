@@ -42,7 +42,7 @@ def send_data_to_kafka(**kwargs):
     )
     
     start = 0
-    count = 5
+    count = 10
     
     matchRecordData = riotApi.matchDataInfo(userList, start, count)
     print('DATA : ' , matchRecordData)
@@ -62,7 +62,7 @@ default_args = {
 
 with DAG(
     dag_id='riot_pipeline',
-    schedule_interval='*/10 * * * *',
+    schedule_interval='*/5 * * * *',
     catchup=False,
     default_args=default_args
 ) as dag:
