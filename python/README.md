@@ -1,4 +1,4 @@
-<p align="left">
+
 # Python
 ## 각 티어별 SummonerName List 받아오기.
 - [티어별 SummonerName List](./SummonerName_List.md)
@@ -8,4 +8,3 @@
 
 ## History Data Parsing
 - [History Data Parsing](./HistoryData_Parsing.md)
-</p>
