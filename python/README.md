@@ -1,5 +1,5 @@
 
-# Python
+# League of Legends History Data Parsing
 ## 각 티어별 SummonerName List 받아오기.
 - [티어별 SummonerName List](./summonerNameList.md)
 
