@@ -14,3 +14,35 @@ spell_url = f'https://ddragon.leagueoflegends.com/cdn/{gameVersion}/data/en_US/s
 runes_url = f'https://ddragon.leagueoflegends.com/cdn/{gameVersion}/data/en_US/runesReforged.json'
         
 ```
+### 2. 필요한 정보만 종합하여 새로운 Json 파일 생성
+Riot API를 통해 얻은 Json 파일에는 많은 정보 중에서 필요한 정보만 종합하여 Kafka topic에 전달하기 위한
+새로운 Json 형식의 파일을 생성합니다.
+
+```python
+ # 매치정보 return json 파일
+matchDataJson = OrderedDict()
+matchDataJson["matchId"] = match
+matchDataJson["gameMode"] = gameMode
+matchDataJson["outCome"] = stringVictory
+matchDataJson["gameDuration"] = gameDuration
+matchDataJson["fewHoursGame"] = fewHoursGame
+matchDataJson['tier'] = tier
+
+matchDataJson["championInfo"] = {'championName': championName,
+                             'lane': lane,
+                            'championLevel': champLevel,
+                            'killStreak': maxKill,
+                            'kill': kills,
+                            'death': deaths,
+                            'assist': assists,
+                            'spells': champSpell,
+                            'items': items,
+                            'runes': {'primaryRunes': primaryRunesNameList,
+                                    'subRunes':subRunesNameList},
+                            'visionWardCount': visionWardsCount,
+                            'minionCOunt': CsCount
+                            }
+
+result = json.dumps(matchDataJson, ensure_ascii=False, indent=4)
+jsonDatas_.append(json.loads(result))
+```
