@@ -10,4 +10,4 @@
 
 ### Info['participants']
 참여한 각 유저들의 게임 history data 정보
-![](../Images/json_Info['participants'].png)
+![](../Images/json_history.png)
