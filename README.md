@@ -1,3 +1,4 @@
-# Python
-## 1. Data Parsing
+# League of Legends Data Pipeline
+## 1. Data Parsing (Python)
+
 
