@@ -46,6 +46,7 @@ matchDataJson["championInfo"] = {'championName': championName,
 result = json.dumps(matchDataJson, ensure_ascii=False, indent=4)
 jsonDatas_.append(json.loads(result))
 ```
+### 3. 새로운 Json파일 
 <p align="left">
 <img src="../Images/new_historyData.png" alt="이미지1" width="600" height="1200">
 </p>
