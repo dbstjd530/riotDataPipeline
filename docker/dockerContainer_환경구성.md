@@ -25,5 +25,5 @@
 
 ### 1.4 Docker Container 구성 모습
 <p align="left">
-<img src="../Images/docker_container.png" alt="이미지2" width="800" height="400">
+<img src="../Images/docker_container.png" alt="이미지2" width="900" height="600">
 </p>
