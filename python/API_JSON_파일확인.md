@@ -1,4 +1,4 @@
-# History Data Parsing
+# JSON 형식 확인
 ## API Json 파일 확인
 ### Participants
 게임 매치에 참여한 유저들의 SummonerId
