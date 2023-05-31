@@ -1,5 +1,5 @@
 # League of Legends API Data Parsing
-## 1. SummonerName List 함수 작성
+## 1. SummonerName List 받아오기
 ⚠ Riot Developer에서 API key 승인을 먼저 받아야합니다.
 ### 1.1 챌린저, 그랜드마스터 등 각 티어 유저들의 SummonerName List 받아오기
 챌린저, 그랜드마스터, 마스터, 다이아 등 각 티어 별로 SummonerName(닉네임)을 받아오는 API가 각각 다르기 때문에 함수를 맞춰서 작성합니다.
