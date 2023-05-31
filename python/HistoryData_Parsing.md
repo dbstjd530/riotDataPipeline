@@ -19,7 +19,7 @@ Riot API를 통해 얻은 Json 파일에는 많은 정보 중에서 필요한 �
 새로운 Json 형식의 파일을 생성합니다.
 
 ```python
- # 매치정보 return json 파일
+# 매치정보 return json 파일
 matchDataJson = OrderedDict()
 matchDataJson["matchId"] = match
 matchDataJson["gameMode"] = gameMode
