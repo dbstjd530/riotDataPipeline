@@ -53,7 +53,7 @@ query_df_stream_lol_hdfs_text = df_stream_lol.selectExpr("CAST(history AS STRING
 .start()
 ```
 <p align="left">
-<img src="../Images/hdfs_text.png" alt="이미지" width="1000" height="400">
+<img src="../Images/hdfs_text.png" alt="이미지" width="800" height="400">
 </p>
 
 ### 1.3 Spark-Warehouse에 저장
@@ -73,7 +73,7 @@ query_df_stream_lol_table_text = df_stream_lol \
     .toTable("lol_table_text")
 ```
 <p align="left">
-<img src="../Images/warehouse.png" alt="이미지" width="1000" height="400">
+<img src="../Images/warehouse.png" alt="이미지" width="800" height="400">
 </p>
 
 ### 1.4 Warehouse 저장 확인
