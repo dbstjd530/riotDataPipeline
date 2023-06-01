@@ -85,3 +85,8 @@ with DAG(
 <p align="left">
 <img src="../Images/airflow_graph.png" alt="이미지" width="800" height="200">
 </p>
+
+- Airflow task Grid 확인
+<p align="left">
+<img src="../Images/airflow_grid.png" alt="이미지" width="800" height="200">
+</p>
