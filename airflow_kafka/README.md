@@ -83,10 +83,10 @@ with DAG(
 ### 2.2 Airflow-webserver를 이용한 배치 작업 실행 및 모니터링
 - Airflow task Graph 확인
 <p align="left">
-<img src="../Images/airflow_graph.png" alt="이미지" width="800" height="200">
+<img src="../Images/airflow_graph.png" alt="이미지" width="1000" height="200">
 </p>
 
 - Airflow task Grid 확인
 <p align="left">
-<img src="../Images/airflow_grid.png" alt="이미지" width="800" height="200">
+<img src="../Images/airflow_grid.png" alt="이미지" width="1000" height="400">
 </p>
