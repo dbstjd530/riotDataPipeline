@@ -73,7 +73,7 @@ query_df_stream_lol_table_text = df_stream_lol \
     .toTable("lol_table_text")
 ```
 <p align="left">
-<img src="../Images/warehouse.png" alt="이미지" width="600" height="200">
+<img src="../Images/warehouse.png" alt="이미지" width="1000" height="400">
 </p>
 
 ### 1.4 Warehouse 저장 확인
@@ -84,5 +84,5 @@ spark.catalog.refreshTable("lol_table_text")
 print(spark.table("lol_table_text").count())
 ```
 <p align="left">
-<img src="../Images/warehouse_check.png" alt="이미지" width="1000" height="400">
+<img src="../Images/warehouse_check.png" alt="이미지" width="800" height="200">
 </p>
