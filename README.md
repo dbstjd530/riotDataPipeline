@@ -10,6 +10,9 @@
 <br/>
 
 ## Pipeline 구성도
+<p align="left">
+<img src="../Images/DataPipeline_구성도2.png" alt="이미지1" width="800" height="400">
+</p>
 
 ## 1. 데이터 파싱 (Python)
 - [데이터 파싱](./python/README.md)
