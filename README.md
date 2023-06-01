@@ -17,7 +17,7 @@
 ![Airflow](https://img.shields.io/badge/-airflow-F05032?style=for-the-badge&logo=airflow&logoColor=ffffff)
 ![Kafka](https://img.shields.io/badge/-Kafka-222222?style=for-the-badge&logo=Kafka)
 ![Node](https://img.shields.io/badge/-Nodejs-43853d?style=for-the-badge&logo=Node.js&logoColor=white)
-![Spark](https://img.shields.io/badge/-Spark-F05032?style=for-the-badge&logo=Spark&logoColor=ffffff)
+![Spark](https://img.shields.io/badge/-Spark-F05032?style=for-the-badge&logo=Apache-Spark&logoColor=ffffff)
 ![Docker](https://img.shields.io/badge/-Docker-46a2f1?style=for-the-badge&logo=docker&logoColor=ffffff)
 
 <br/>
