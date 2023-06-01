@@ -1,4 +1,4 @@
-# Spark
+# PySpark.sql
 ## 1. Spark를 이용한 데이터 분석
 ### 1.1 TempView 생성
 - pyspark.sql 사용을 위한 TempView를 생성
