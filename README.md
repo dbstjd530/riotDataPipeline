@@ -14,6 +14,7 @@
 <img src="./Images/pipeline.png" alt="이미지1" width="800" height="400">
 </p>
 
+<span style="color: red;">이 텍스트는 빨간색으로 표시됩니다.</span> 
 **↓아래의 파랑색 글씨를 누르시면 설명하는 페이지로 넘어갑니다.**
 ## 1. 데이터 파싱 (Python)
 - [데이터 파싱](./python/README.md)
