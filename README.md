@@ -1,13 +1,11 @@
 # League of Legends Data Pipeline
 <br />
 <h2> Use tech stack 📚 </h2>
-
 ![Python](https://img.shields.io/badge/-Python-007ACC?style=for-the-badge&logo=Python&logoColor=ffffff)
 ![Airflow](https://img.shields.io/badge/-airflow-F05032?style=for-the-badge&logo=Apache-airflow&logoColor=ffffff)
 ![Kafka](https://img.shields.io/badge/-Kafka-222222?style=for-the-badge&logo=Apache-Kafka)
 ![Spark](https://img.shields.io/badge/-Spark-F05032?style=for-the-badge&logo=Apache-Spark&logoColor=ffffff)
 ![Docker](https://img.shields.io/badge/-Docker-46a2f1?style=for-the-badge&logo=docker&logoColor=ffffff)
-
 <br/>
 
 ## Pipeline 구성도
