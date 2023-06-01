@@ -90,3 +90,8 @@ with DAG(
 <p align="left">
 <img src="../Images/airflow_grid.png" alt="이미지" width="1000" height="400">
 </p>
+
+- Kafdrop을 이용한 topic 확인
+<p align="left">
+<img src="../Images/kafdrop_topic.png" alt="이미지" width="1000" height="800">
+</p>
