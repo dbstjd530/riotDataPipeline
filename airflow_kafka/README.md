@@ -49,3 +49,33 @@ def send_data_to_kafka(**kwargs):
     #producer.close()
     print("DONE")
 ```
+## 2. Airflow
+### 2.1 Airflow DAG를 이용한 배치 작업 실행
+주기적으로 Riot API에 요청을 보내고 파싱을 하여 Kafka topic에 전달하는 역할을 Airflow를 이용하여 배치 실횅
+```python
+default_args = {
+    'start_date': datetime(2023, 5, 15)
+}
+    
+with DAG(
+    dag_id='riot_pipeline',
+    schedule_interval='*/10 * * * *',
+    catchup=False,
+    default_args=default_args
+) as dag:    
+    find_summonerName = PythonOperator(
+        task_id = 'find_summonerName',
+        python_callable=find_userName,
+        op_kwargs={'queueType': 'RANKED_SOLO_5x5', 'page': 1},
+        provide_context=True,
+        dag=dag
+    )
+    
+    send_data_task = PythonOperator(
+        task_id='send_data_task',
+        python_callable=send_data_to_kafka,
+        dag=dag
+    )
+    
+    find_summonerName >> send_data_task
+```
