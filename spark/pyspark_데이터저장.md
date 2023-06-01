@@ -52,3 +52,6 @@ query_df_stream_lol_hdfs_text = df_stream_lol.selectExpr("CAST(history AS STRING
 .queryName("query_df_stream_lol_hdfs_text") \
 .start()
 ```
+<p align="left">
+<img src="../Images/hdfs_text.png" alt="이미지" width="1000" height="400">
+</p>
