@@ -12,6 +12,6 @@ $ docker exec -it broker1 bash
 $ kafka-topics --list --bootstrap-server localhost:9092
 ```
 <p align="left">
-<img src="../Images/topic_list.png" alt="이미지" width="1500" height="600">
+<img src="../Images/topic_list.png" alt="이미지" width="800" height="400">
 </p>
 
