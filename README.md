@@ -1,6 +1,5 @@
 # League of Legends Data Pipeline
 
-
 <br />
 <h2> Use tech stack 📚 </h2>
 
