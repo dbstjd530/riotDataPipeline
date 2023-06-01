@@ -84,5 +84,5 @@ spark.catalog.refreshTable("lol_table_text")
 print(spark.table("lol_table_text").count())
 ```
 <p align="left">
-<img src="../Images/warehouse_check.png" alt="이미지" width="400" height="200">
+<img src="../Images/warehouse_check.png" alt="이미지" width="600" height="200">
 </p>
