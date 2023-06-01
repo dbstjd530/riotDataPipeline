@@ -1,5 +1,4 @@
 # League of Legends Data Pipeline
-
 <br />
 <h2> Use tech stack 📚 </h2>
 
@@ -11,6 +10,7 @@
 
 <br/>
 
+## Pipeline 구성도
 
 ## 1. 데이터 파싱 (Python)
 - [데이터 파싱](./python/README.md)
