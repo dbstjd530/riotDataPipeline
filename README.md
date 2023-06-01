@@ -25,10 +25,10 @@ Email : dbstjd530@naver.com
 
 <h2> what I studied ✏️</h2>
   <p>
-    <img src="https://img.shields.io/badge/Docker-66CCFF?style=for-the-badge&logo=Hadoop&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Docker-66CCFF?style=for-the-badge&logo=Docker&logoColor=white"/>
     <img src="https://img.shields.io/badge/Spark-E25A1C?style=for-the-badge&logo=Apache Spark&logoColor=white"/>
     <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Kafka-16A085?style=for-the-badge&logo=MySQL&logoColor=black"/>
+    <img src="https://img.shields.io/badge/Kafka-16A085?style=for-the-badge&logo=Kafka&logoColor=black"/>
   </p>
 
 
