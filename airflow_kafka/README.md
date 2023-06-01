@@ -11,4 +11,7 @@ docker를 사용하므로 broker1 컨테이너에 접속하여 topic 생성이 �
 $ docker exec -it broker1 bash
 $ kafka-topics --list --bootstrap-server localhost:9092
 ```
+<p align="left">
+<img src="../Images/topic_list.png" alt="이미지" width="1500" height="600">
+</p>
 
