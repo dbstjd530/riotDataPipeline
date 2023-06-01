@@ -70,5 +70,5 @@ joined_items = items_1.join(items_2, ['champion_name', 'item'], 'inner') \
     .orderBy(F.desc('champion_name'))
 ```
 <p align="left">
-<img src="../Images/lane_item.png" alt="이미지" width="1000" height="400">
+<img src="../Images/lane_item.png" alt="이미지" width="1000" height="200">
 </p>
