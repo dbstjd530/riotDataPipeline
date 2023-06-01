@@ -73,7 +73,7 @@ query_df_stream_lol_table_text = df_stream_lol \
     .toTable("lol_table_text")
 ```
 <p align="left">
-<img src="../Images/warehouse.png" alt="이미지" width="1000" height="400">
+<img src="../Images/warehouse.png" alt="이미지" width="600" height="200">
 </p>
 
 ### 1.4 Warehouse 저장 확인
