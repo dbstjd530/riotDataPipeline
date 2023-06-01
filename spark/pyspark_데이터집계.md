@@ -39,5 +39,5 @@ df_all_lol_warehouse = df_all_lol_warehouse.drop("championInfo")
 z.show(df_all_lol_warehouse)
 ```
 <p align="left">
-<img src="../Images/dataframe.png" alt="이미지" width="1000" height="400">
+<img src="../Images/dataframe.png" alt="이미지" width="1000" height="200">
 </p>
