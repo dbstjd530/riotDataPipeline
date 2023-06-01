@@ -55,3 +55,34 @@ query_df_stream_lol_hdfs_text = df_stream_lol.selectExpr("CAST(history AS STRING
 <p align="left">
 <img src="../Images/hdfs_text.png" alt="이미지" width="1000" height="400">
 </p>
+
+### 1.3 Spark-Warehouse에 저장
+- 작업을 5초마다 실행하도록 트리거링
+- "append"로 설정하여 기존 테이블에 새로운 데이터를 추가
+- 체크포인트 위치를 지정
+- 데이터를 테이블로 저장할 이름을 지정
+```python
+from pyspark.sql.streaming import DataStreamWriter
+
+query_df_stream_lol_table_text = df_stream_lol \
+    .writeStream \
+    .trigger(processingTime = '5 seconds') \
+    .outputMode("append") \
+    .option("checkpointLocation", "/user/fastcampus/checkpoint/structured_streaming/lol_table_text") \
+    .queryName("query_df_stream_lol_table_text") \
+    .toTable("lol_table_text")
+```
+<p align="left">
+<img src="../Images/warehouse.png" alt="이미지" width="1000" height="800">
+</p>
+
+### 1.4 Warehouse 저장 확인
+```python
+print(spark.catalog.listTables())
+spark.table("lol_table_text").printSchema()
+spark.catalog.refreshTable("lol_table_text")
+print(spark.table("lol_table_text").count())
+```
+<p align="left">
+<img src="../Images/warehouse_check.png" alt="이미지" width="1000" height="400">
+</p>
