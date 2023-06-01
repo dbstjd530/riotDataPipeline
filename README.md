@@ -14,7 +14,7 @@
 <h2> My tech stack 📚 </h2>
 
 ![Python](https://img.shields.io/badge/-Python-007ACC?style=for-the-badge&logo=Python&logoColor=ffffff)
-![Airflow](https://img.shields.io/badge/-Airflow-F05032?style=for-the-badge&logo=Airflow&logoColor=ffffff)
+![Airflow](https://img.shields.io/badge/-airflow-F05032?style=for-the-badge&logo=airflow&logoColor=ffffff)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=for-the-badge&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/-React-222222?style=for-the-badge&logo=react)
